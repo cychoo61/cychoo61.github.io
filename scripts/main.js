@@ -9,7 +9,7 @@ myImage.onclick = function() {
     }
 }
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+//let myHeading = document.querySelector('h1');
 function setUserName() {
   let myName = prompt('Please enter your name.');
   if(!myName || myName === null) {
